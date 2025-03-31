@@ -1,0 +1,274 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+        <title>Home</title>
+    </head>
+       
+    <body>
+        <header>
+            <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/NdF_Logo.png" alt="none.png">
+    
+            <!-- Menu toggle button -->
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+    
+            <!-- Overlay -->
+            <div class="overlay"></div>
+    
+            <!-- Navigation links -->
+            <nav>
+                <ul class="nav-links">
+                    <li><a class="active" href="home.html">Home</a></li>
+                    <li><a class="active" href="about.html">About</a></li>
+                    <li><a class="active" href="news.html">News</a></li>
+                    <li><a class="active" href="trends.html">Trends</a></li>
+                    <li><a class="active" href="orgs.html">Organizations</a></li>
+                </ul>
+            </nav>
+        </header> 
+
+        <section class="about">
+            <div class="sea_image"> <!--/images/newswater.png -->
+                <img src="https://img.freepik.com/free-photo/fresh-water-texture-background-transparent-liquid_53876-142911.jpg?size=626&ext=jpg&ga=GA1.1.540773674.1714511859&semt=ais_hybrid" alt="clean water">
+            <h2 class="cws">
+                 NEWS & EVENTS
+            </h2>
+            <p>
+                SUSTAINABLE DEVELOPMENT GOAL NO. 6
+            </p>
+            <div class="newsbtnholder">
+                <ul class="newsbuttons">
+                    <li><button onclick="location.href='#LN'">Latest News </button></li>
+                    <li><button onclick="location.href='#UE'"> Upcoming Events</button></li>
+                    <li><button onclick="location.href='#AE'">Archive of Events</button></li>
+                </ul>
+            </div>
+            <h3 class="quote">
+                "Clean water, the essence of life and a birthright for everyone, must become available to all people now."
+                <br>
+                - Jean-Michel Cousteau -
+            </h3>
+            </div>
+        </section>
+
+        <section id="LN">
+            <hr>
+            <div class="latestcontainer">
+                <h1 class="latestevent">LATEST NEWS</h1>
+                <div class= "LNbox1">
+                    <img src="/images/BaguioNewsSDG6.png" alt="Article"> 
+                    <h1>Ground Water Protection and Conservation Agreement</h1>
+                    <p>The City Council of Baguio City approved a resolution confirming a MOA to protect groundwater resources. The city government is now authorized to enforce...</p>
+                    <a href="https://new.baguio.gov.ph/news/city-okays-groundwater-protection-and-conservation-agreement" target="_blank" class="LNbtn1">View Details</a>
+                </div>
+                <div class= "LNbox2">
+                    <img src="https://news-image-api.abs-cbn.com/Prod/editorImage/17150593343371715059328440.png" alt="news article"> 
+                    <h1>40M Filipinos don't have access to clean and potable water.</h1>
+                    <p>The DENR plans to procure modular desalination machines to address the lack of clean water access for 40 million Filipinos. The government...</p>
+                    <a href="https://news.abs-cbn.com/news/2024/5/7/40m-filipinos-do-not-have-access-to-clean-and-potable-water-denr-1320" target="_blank" class="LNbtn2"> View Details</a>
+                </div>
+                <div class= "LNbox3">
+                    <img src="https://media.philstar.com/photos/2024/01/27/5_2024-01-27_22-55-32.jpg" alt="clean water"> 
+                    <h1>Clean Water Finally</h1>
+                    <p>The Philippines has a clean water shortage but a new project in Davao City provides clean water and renewable energy for 1 million residents. This project is a collaboration...</p>
+                    <a href="https://www.philstar.com/business/2024/01/28/2328982/clean-water-finally" target="_blank" class="LNbtn3">View Details </a>
+                </div>
+            </div>
+        </section>  
+
+        <section id="UE">
+            <hr>
+            <div class="upcoming">
+                <h3 class="upcomingevent">UPCOMING EVENTS</h3>
+                <div class="slider-wrapper">
+                    <div class="slider">
+                        <div class="event" id="event1">
+                            <img id="event-1" src="https://media.istockphoto.com/id/1482843873/photo/close-up-on-hands-of-a-crowd-of-people-clapping-in-dark-conference-hall-during-a-motivational.jpg?s=612x612&w=0&k=20&c=l82b7EN4ml1NOIHsTMrQtEO6FpJbOE5ZbimEG1aeGM0=" alt="Conference">
+                            <div class="text">
+                                <h3>2024 UNC Water & Health Conference</h3>
+                                <h4>The UNC Water and Health Conference is an annual gathering of WaSH professionals. It aims to improve public health by promoting universal access to safe, affordable, and sustainable WaSH services.</h4>       
+                                <h5> • October 14-18, 2024  • <br>
+                                    • Friday Center, Chapel Hill, North Carolina •</h5>        
+                            </div>
+                            <a href="https://waterinstitute.unc.edu/our-work/unc-water-and-health-conference" target="_blank" class="btn1"> View Details</a>
+                        </div>
+                        <div class="event" id="event2">
+                            <img id="event-2" src="https://media.istockphoto.com/id/522746284/photo/hands-with-water-splash.jpg?s=612x612&w=0&k=20&c=Ud7pRQdL0wxQqT9jLL4FpRAAmx5uDihqIg_2cousSYg=" alt="water droplet">
+                            <div class="text">
+                                <h3>Digital Water Summit 2024</h3>
+                                <h4>The International Water Association (IWA) is hosting the third Digital Water Summit on November 12-14, 2024, in Bilbao, Spain. The event aims to bring together water leaders, innovators, and experts to discuss digital technologies and solutions for the water sector.</h4>
+                                <h5> • November 12-14, 2024  • <br>
+                                    • Bilbao, Spain •</h5>        
+                            </div>
+                            <a href="https://iwa-network.org/events/digital-water-summit-2024/ " target="_blank">View Details</a>
+                        </div>                        
+                        <div class="event" id="event3">
+                            <img id="event-3" src="/images/PhilippinesWater.png" alt="technologies">
+                            <div class="text">
+                                <h3>Philippines' Leading International Water Supply, Sanitation & Purification Event.</h3>
+                                <h4>Over 12,000 quality top industry players and leaders will gather with the widest variety of over 350 exhibiting companies in the water industry presenting a complete overview of products, technologies and innovations.</h4>
+                                <h5> • 19 - 21 MARCH 2025 • <br>
+                                    • SMX Convention Center, Manila •</h5>        
+                            </div>
+                            <a href="https://www.waterphilippinesexpo.com/" target="_blank">View Details</a>
+                        </div>                        
+                        <div class="event" id="event4">
+                            <img id="event-4" src="/images/AsianWater.png" alt="Expo and forum">    
+                            <div class="text">
+                                <h3>ASIAWATER Expo & Forum 2026</h3>
+                                <h4>The platform showcases the latest technologies for water and wastewater management in developing Asia.</h4>
+                                <h5> • April 7 - 9 2026 • <br>
+                                        • Kuala Lumpur Convention Centre •</h5>        
+                            </div>
+                            <a href="https://iwa-network.org/events/digital-water-summit-2024/ " target="_blank">View Details</a>
+                        </div>
+                        <div class="event-nav">
+                            <a href="#event-1"></a>
+                            <a href="#event-2"></a>
+                            <a href="#event-3"></a>
+                            <a href="#event-4"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="AE">
+            <hr>
+            <div class="archivecontainer">
+                <h4 class="archiveevent">ARCHIVE OF EVENTS</h4>
+                <div class="tableholder">
+                    <table>
+                        <tr>
+                        <th>Event</th>
+                        <th>Date</th>
+                        </tr>
+                        <tr>
+                            <td> <a href="https://www.worldwaterweek.org/" style="cursor: pointer;" target="_blank">World Water Week 2024</a></td>
+                            <td>August 25-29, 2024</td>
+                        </tr>
+                        <tr>
+                            <td> <a href="https://www.un.org/en/observances/water-day" style="cursor: pointer;" target="_blank">World Water Day</a></td>
+                            <td>March 22, 2024</td>
+                        </tr>
+                        <tr>
+                            <td> <a href="https://nordcham.glueup.com/event/sustainability-committee-meeting-sdg-6-clean-water-and-sanitation-66533/" style="cursor: pointer;" target="_blank">Sustainability Committee Meeting</a></td>
+                            <td>November 23, 2022</td>
+                        </tr>
+                        <tr>
+                            <td> <a href="https://www.susana.org/en/news-and-events/sanitation-events/events-archive/details/7#" style="cursor: pointer;" target="_blank">Joint ADB-WB Philippines Sanitation Workshop</a></td>
+                            <td>January 27 2014</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="references-container">
+                <h2>References</h2>
+                <ul>
+                    <li>40M Filipinos don't have access to clean and potable water. (2024, May 7). ABS-CBN News. <a href="https://news.abs-cbn.com/news/2024/5/7/40m-filipinos-do-not-have-access-to-clean-and-potable-water-denr-1320">https://news.abs-cbn.com/news/2024/5/7/40m-filipinos-do-not-have-access-to-clean-and-potable-water-denr-1320</a></li>
+                    
+                    <li>ASIAWATER Expo & Forum 2026. (n.d.). IWA Network. <a href="https://iwa-network.org/events/digital-water-summit-2024/">https://iwa-network.org/events/digital-water-summit-2024/</a></li>
+                    
+                    <li>Clean Water Finally. (2024, January 28). Philippine Star. <a href="https://www.philstar.com/business/2024/01/28/2328982/clean-water-finally" target="_blank">https://www.philstar.com/business/2024/01/28/2328982/clean-water-finally</a></li>
+                    
+                    <li>Digital Water Summit 2024. (n.d.). IWA Network. <a href="https://iwa-network.org/events/digital-water-summit-2024/" target="_blank">https://iwa-network.org/events/digital-water-summit-2024/</a></li>
+                    
+                    <li>Ground Water Protection and Conservation Agreement. (n.d.). Baguio City Government. <a href="https://new.baguio.gov.ph/news/city-okays-groundwater-protection-and-conservation-agreement" target="_blank">https://new.baguio.gov.ph/news/city-okays-groundwater-protection-and-conservation-agreement</a></li>
+                    
+                    <li>Joint ADB-WB Philippines Sanitation Workshop (2014). (n.d.). SuSanA Sanitation Events Archive. <a href="https://www.susana.org/en/news-and-events/sanitation-events/events-archive/details/7#" target="_blank">https://www.susana.org/en/news-and-events/sanitation-events/events-archive/details/7#</a></li>
+                    
+                    <li>Philippines' Leading International Water Supply, Sanitation & Purification Event. (n.d.). Water Philippines Expo. <a href="https://www.waterphilippinesexpo.com/" target="_blank">https://www.waterphilippinesexpo.com/</a></li>
+                    
+                    <li>Sustainability Committee Meeting (SDG 6: Clean Water and Sanitation). (n.d.). NordCham. <a href="https://nordcham.glueup.com/event/sustainability-committee-meeting-sdg-6-clean-water-and-sanitation-66533/" target="_blank">https://nordcham.glueup.com/event/sustainability-committee-meeting-sdg-6-clean-water-and-sanitation-66533/</a></li>
+                    
+                    <li>UNC Water & Health Conference 2024. (n.d.). UNC Water Institute. <a href="https://waterinstitute.unc.edu/our-work/unc-water-and-health-conference" target="_blank">https://waterinstitute.unc.edu/our-work/unc-water-and-health-conference</a></li>
+                    
+                    <li>World Water Day 2024. (n.d.). UN World Water Day. <a href="https://www.un.org/en/observances/water-day" target="_blank">https://www.un.org/en/observances/water-day</a></li>
+                    
+                    <li>World Water Week 2024. (n.d.). World Water Week. <a href="https://www.worldwaterweek.org/" target="_blank">https://www.worldwaterweek.org/</a></li>
+                </ul>
+                <br><br>
+                <p><i><b>Images Reference</b></i></p>
+                <br><br>
+                <ul>
+                    <li><a href="https://upload.wikimedia.org/wikipedia/commons/3/3b/NdF_Logo.png" target="_blank">https://upload.wikimedia.org/wikipedia/commons/3/3b/NdF_Logo.png</a></li>
+                    <li><a href="https://img.freepik.com/free-photo/fresh-water-texture-background-transparent-liquid_53876-142911.jpg?size=626&ext=jpg&ga=GA1.1.540773674.1714511859&semt=ais_hybrid" target="_blank">https://img.freepik.com/free-photo/fresh-water-texture-background-transparent-liquid_53876-142911.jpg?size=626&ext=jpg&ga=GA1.1.540773674.1714511859&semt=ais_hybrid</a></li>
+                    <li><a href="/images/BaguioNewsSDG6.png" target="_blank">/images/BaguioNewsSDG6.png</a></li>
+                    <li><a href="https://news-image-api.abs-cbn.com/Prod/editorImage/17150593343371715059328440.png" target="_blank">https://news-image-api.abs-cbn.com/Prod/editorImage/17150593343371715059328440.png</a></li>
+                    <li><a href="https://media.philstar.com/photos/2024/01/27/5_2024-01-27_22-55-32.jpg" target="_blank">https://media.philstar.com/photos/2024/01/27/5_2024-01-27_22-55-32.jpg</a></li>
+                    <li><a href="https://media.istockphoto.com/id/1482843873/photo/close-up-on-hands-of-a-crowd-of-people-clapping-in-dark-conference-hall-during-a-motivational.jpg?s=612x612&w=0&k=20&c=l82b7EN4ml1NOIHsTMrQtEO6FpJbOE5ZbimEG1aeGM0=" target="_blank">https://media.istockphoto.com/id/1482843873/photo/close-up-on-hands-of-a-crowd-of-people-clapping-in-dark-conference-hall-during-a-motivational.jpg?s=612x612&w=0&k=20&c=l82b7EN4ml1NOIHsTMrQtEO6FpJbOE5ZbimEG1aeGM0=</a></li>
+                    <li><a href="https://media.istockphoto.com/id/522746284/photo/hands-with-water-splash.jpg?s=612x612&w=0&k=20&c=Ud7pRQdL0wxQqT9jLL4FpRAAmx5uDihqIg_2cousSYg=" target="_blank">https://media.istockphoto.com/id/522746284/photo/hands-with-water-splash.jpg?s=612x612&w=0&k=20&c=Ud7pRQdL0wxQqT9jLL4FpRAAmx5uDihqIg_2cousSYg=</a></li>
+                    <li><a href="/images/PhilippinesWater.png" target="_blank">/images/PhilippinesWater.png</a></li>
+                    <li><a href="/images/AsianWater.png" target="_blank">/images/AsianWater.png</a></li>
+                    <li><a href="images/facebook-logo.png" target="_blank">images/facebook-logo.png</a></li>
+                    <li><a href="images/twitter-x-icon-png.png" target="_blank">images/twitter-x-icon-png.png</a></li>
+                    <li><a href="images/instagram.png" target="_blank">images/instagram.png</a></li>
+                    <li><a href="images/YouTube.png" target="_blank">images/YouTube.png</a></li>
+                    <li><a href="images/linkedin_logo_icon.png" target="_blank">images/linkedin_logo_icon.png</a></li>
+                </ul>
+            </div>
+        </section>
+
+
+		<footer class="footer">
+			<div class="footer-container">
+				<div class="footer-column">
+					<h3>ARTEMIS</h3>
+					<p>The company that promotes the SDG 6: Clean Water and Sanitation</p>
+				</div>
+				<div class="footer-column">
+					<h3>PRODUCTS</h3>
+					<ul>
+                        <li><a href="home.html">Home</a></li>
+						<li><a href="news.html">News & Events</a></li>
+						<li><a href="trends.html">Trends</a></li>
+						<li><a href="orgs.html">Organization</a></li>
+						<li><a href="about.html">About</a></li>
+					</ul>
+				</div>
+				<div class="footer-column">
+					<h3>CONTACT</h3>
+					<ul>
+						<li><i class="fas fa-home"></i> SLU, Baguio City, Philippines</li>
+						<li><i class="fas fa-envelope"></i> info@gmail.com</li>
+						<li><i class="fas fa-phone"></i> +63765128255</li>
+						<li><i class="fas fa-print"></i> +63889542267</li>
+					</ul>
+				</div>
+				<div class="footer-column">
+					<h3>FOLLOW US</h3>
+					<div class="images">
+						<img src="images/facebook-logo.png" alt="Facebook logo">
+						<img src="images/twitter-x-icon-png.png" alt="Twitter logo">
+						<img src="images/instagram.png" alt="Instagram logo">
+						<img src="images/YouTube.png" alt="Youtube logo">
+						<img src="images/linkedin_logo_icon.png" alt="LinkedIn logo">
+					</div>
+					<div class="social-icons">
+						<a href="https://www.facebook.com/login/" target="_blank"><i class="fab fa-facebook-f" ></i></a>
+						<a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
+						<a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+						<a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/login" target="_blank"><i class="fab fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				© 2020 Copyright
+			</div>
+		</footer>
+    </body>
+</html>
