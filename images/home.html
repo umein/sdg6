@@ -1,0 +1,239 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/3/3b/NdF_Logo.png" alt="none.png">
+
+        <!-- Menu toggle button -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
+        <!-- Overlay -->
+        <div class="overlay"></div>
+
+        <!-- Navigation links -->
+        <nav>
+            <ul class="nav-links">
+                <li><a class="active" href="home.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a class="active" href="news.html">News</a></li>
+                <li><a class="active" href="trends.html">Trends</a></li>
+                <li><a class="active" href="orgs.html">Organizations</a></li>
+            </ul>
+        </nav>
+    </header>
+       <section class="home_about">
+        <div class="home-about-container">
+        <div class="home-water">
+            <img src="images/3dwater.png" alt="home-water">
+
+        </div>
+        <h1 class="home-sdg6">
+                 SUSTAINABLE DEVELOPMENT GOAL NO. 6
+        </h1>
+        <h2 class="home-cws">
+                CLEAN WATER &<br>
+                SANITATION
+        </h2>
+        <p class="home-cws-desc">
+            Clean water and sanitation are fundamental human rights and are essential for the health, dignity, and development of individuals and communities. Access to clean water means having safe, uncontaminated water available for drinking, cooking, and hygiene.
+        </p>
+        <button class="home-about-lm" onclick="location.href='about.html'">
+            LEARN MORE
+        </button>
+        </div>
+       </section> 
+       <section class="home-ne">
+        <div class="home-ne-container">
+            <div class="home-ne-box">
+                <h1>
+                NEWS & EVENTS
+                </h1>
+                <button class="home-ne-lm" onclick="location.href='news.html'">
+                    VIEW ALL
+                </button>
+            </div>
+            <div class="home-ne-img1">
+                <img src ="images/BaguioNewsSDG6.png" alt = "homeneimg1">
+                <div class="home-ne-img-overlay1">
+                    <h1>Ground Water Protection and Conservation Agreement</h1>
+                    <p> The City Council of Baguio City approved a resolution confirming a MOA to protect groundwater resources.</p>
+                </div>
+            </div>
+            <div class="home-ne-img2">
+                <img src="https://news-image-api.abs-cbn.com/Prod/editorImage/17150593343371715059328440.png" alt="homeneimg2">
+                <div class="home-ne-img-overlay2">
+                    <h1>Filipinos don't have access to clean and potable water</h1>
+                    <p> The DENR plans to procure modular desalination machines to address the lack of clean water.</p>
+                </div>
+            </div>
+            <div class="home-ne-img3">
+                <img src="https://media.philstar.com/photos/2024/01/27/5_2024-01-27_22-55-32.jpg" alt="homeneimg3">
+                <div class="home-ne-img-overlay3">
+                    <h1>Clean Water Finally</h1>
+                    <p>The Philippines has a clean water shortage but a new project in Davao City provides clean water and renewable energy for 1 million residents.</p>
+                </div>
+            </div>
+        </div>
+       </section>
+       <section class="home-ti">
+            <div class="home-ti-container">
+                <h1>TRENDS & INNOVATIONS</h1>
+                
+                <input type="radio" name="slider" id="slide1" checked>
+                <input type="radio" name="slider" id="slide2">
+                <input type="radio" name="slider" id="slide3">
+
+                <div class="slider-container">
+                    <div class="slider-content content1">
+                        <img src="https://savethewater.org/wp-content/uploads/2015/10/Water-Purification-scaled.jpg" alt="hometiimg1">
+                      <h2>Water Treatment Technology</h2>
+                        <p>Membrane filtration, ultraviolet disinfection, and nanotechnology are being used to improve water quality.</p>
+                 </div>
+
+                    <div class="slider-content content2">
+                        <img src="https://www.cleantechwater.co.in/wp-content/uploads/2023/04/How-to-Optimize-Wastewater-Treatment-Plants-for-Maximum-Efficiency.jpg" alt="hometiimg2">
+                     <h2>Waste Water Treatment</h2>
+                        <p>Wastewater treatment processes are helping to reduce pollution and recover valuable resources.</p>
+                    </div>
+
+                    <div class="slider-content content3">
+                        <img src="https://blog.ipleaders.in/wp-content/uploads/2021/08/rainwater-harvesting-istock-1014012-1627523947.jpg" alt="hometiimg3">
+                      <h2>Water Harvesting</h2>
+                     <p>Rainwater harvesting, greywater reuse, and desalination are being explored to increase water availability.</p>
+                 </div>
+
+                 
+                </div>
+                <a href="trends.html" class="more-link">MORE ON TRENDS & INNOVATIONS &gt;</a>
+                <div class="slider-dots">
+                    <label for="slide1"></label>
+                    <label for="slide2"></label>
+                    <label for="slide3"></label>
+                </div>
+            </div>
+       </section>
+       <section class="home-org">
+            <div class="home-org-container">
+                <h1>ORGANIZATIONS</h1>
+                <button class="home-org-lm" onclick="location.href='orgs.html'">
+                    VIEW ORGANIZATIONS
+                </button>
+                <ul class="org-list">
+                    <li>
+                        <img src="images/W4W.png" alt="Org 1">
+                        <h2>Waves for Water(W4W)</h2>
+                        <p>“Do what you love and help along the way.”</p>
+                    </li>
+                    <li>
+                        <img src="images/PWF.png" alt="Org 2">
+                        <h2>Planet Water Foundation</h2>
+                        <p>To transform the health and well-being of people in the world’s most impoverished communities
+                            through providing access to safe drinking water, sanitation, and hygiene education.</p>
+                    </li>
+                    <li>
+                        <img src="images/MWF.png" alt="Org 3">
+                        <h2>Manila Water Foundation</h2>
+                        <p>serves as the social development arm of the Manila Water enterprise.</p>
+                    </li>
+                </ul>
+            </div>
+       </section>
+       <section>
+        <div class="references-container">
+            <h2>References</h2>
+            <ul>
+
+                <li>Facebook. (n.d.).  <a href="https://www.facebook.com/story.php/?story_fbid=1064242928399016&id=100044399560402" target="_blank" rel="noopener noreferrer">https://thedharmatrails.com/slogans-on-saving-water/</a></li>
+                
+                <li>Hancock, N. (2022, November 16). Wastewater treatment — Safe Drinking water foundation. Safe Drinking Water Foundation. <a href="https://www.safewater.org/fact-sheets-1/2017/1/23/wastewater-treatment?fbclid=IwY2xjawFL62NleHRuA2FlbQIxMAABHUVEvXbt6FrwzIASE6swkFVCJmJndnWAgKlGFN5VurcWSCKPuByyiiNJGg_aem_5jjHdqZRLIc_TvzKYK306w" target="_blank" rel="noopener noreferrer">https://thedharmatrails.com/slogans-on-saving-water/</a></li>
+
+                <li>Manila Water Foundation. (n.d.).   <a href="https://manilawaterfoundation.org/" target="_blank" rel="noopener noreferrer">https://www.worldbank.org/en/topic/water/overview</a></li>
+
+                <li>Mano, R. (2024, May 7). “Department of Water” eyed amid supply woes. ABS-CBN News. <a href="https://news.abs-cbn.com/business/2024/5/7/-department-of-water-eyed-amid-supply-woes-1649" target="_blank" rel="noopener noreferrer">https://www.who.int/teams/environment-climate-change-and-health/water-sanitation-and-health/water-safety-and-quality/publications</a></li>
+                
+                <li>Planet Water Foundation. (2024, May 30). Planet Water Foundation - Water charity providing clean water, sanitation & hygiene education. Planet Water. <a href=" https://planet-water.org/?gad_source=1&gclid=EAIaIQobChMIjc-h24q2iAMVmCR7Bx3HmA9EEAAYASAAEgKWbvD_BwE" target="_blank" rel="noopener noreferrer"> https://noc.ac.uk/news/noc-contributes-latest-ipcc-report-assessing-impacts-climate-change?gad_source=1&gclid=CjwKCAjwufq2BhAmEiwAnZqw8h4z3Rc5hvXSFEQQcRwmk4Jd4pNryu-SnEoHgEepnLzxtl9riSlksRoCchQQAvD_BwE</a></li>
+                
+                <li>Rainwater, H. (n.d.). Water harvesting - Rainwater harvesting for drylands and beyond by Brad Lancaster. Rainwater Harvesting for Drylands and Beyond by Brad Lancaster. <a href="https://www.harvestingrainwater.com/water-harvesting/?fbclid=IwY2xjawFL67tleHRuA2FlbQIxMAABHU_T5_olYGpcVEvQALSVHIOrt4oyGEUcEhFa2jSbmswJMMEwOppbtLPK3Q_aem_0sv9dXYe7ZcIQ99NbThBUw" target="_blank" rel="noopener noreferrer"> https://www.unesco.org/reports/wwdr/2023/en</a></li>
+
+                <li>Reyes, M. a. L. (2024, January 27). Clean water finally. Philstar.com. <a href="https://www.philstar.com/business/2024/01/28/2328982/clean-water-finally" target="_blank" rel="noopener noreferrer"> https://www.unesco.org/reports/wwdr/2023/en</a></li>
+                
+                <li>Singh, M., & Ahmed, S. (2021). IoT based smart water management systems: A systematic review. Materials Today Proceedings, 46, 5211–5218. <a href="https://doi.org/10.1016/j.matpr.2020.08.588" target="_blank" rel="noopener noreferrer"> https://www.unesco.org/reports/wwdr/2023/en</a></li>
+                
+                <li>Waves for water. (n.d.). Waves for Water.  <a href="https://wavesforwater.org/" target="_blank" rel="noopener noreferrer">https://www.worldbank.org/en/topic/water/overview</a></li>
+                
+                <li>View of transparent crystal water | AI-generated image. (2023, August 31). Freepik.<a href="https://www.freepik.com/free-ai-image/view-transparent-crystal-water_65705710.htm#fromView=search&page=2&position=3&uuid=61e2d763-9e7b-4426-85f5-d45f4b4ff3e8" target="_blank" rel="noopener noreferrer">https://datatopics.worldbank.org/sdgatlas/goal-6-clean-water-and-sanitation/?lang=en
+                </a></li>
+                
+                
+            </ul>
+        </div>
+                 
+       </section>
+    
+       <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>ARTEMIS</h3>
+                <p>The company that promotes the SDG 6: Clean Water and Sanitation</p>
+            </div>
+            <div class="footer-column">
+                <h3>PRODUCTS</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="news.html">News & Events</a></li>
+                    <li><a href="trends.html">Trends</a></li>
+                    <li><a href="orgs.html">Organization</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>CONTACT</h3>
+                <ul>
+                    <li><i class="fas fa-home"></i> SLU, Baguio City, Philippines</li>
+                    <li><i class="fas fa-envelope"></i> info@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +63765128255</li>
+                    <li><i class="fas fa-print"></i> +63889542267</li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>FOLLOW US</h3>
+                <div class="images">
+                    <img src="images/facebook-logo.png" alt="Facebook logo">
+                    <img src="images/twitter-x-icon-png.png" alt="Twitter logo">
+                    <img src="images/instagram.png" alt="Instagram logo">
+                    <img src="images/YouTube.png" alt="Youtube logo">
+                    <img src="images/linkedin_logo_icon.png" alt="LinkedIn logo">
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/login/" target="_blank"><i class="fab fa-facebook-f" ></i></a>
+                    <a href="https://twitter.com/i/flow/login" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.google.com/" target="_blank"><i class="fab fa-google"></i></a>
+                    <a href="https://www.instagram.com/accounts/login/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/login" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2020 Copyright
+        </div>
+    </footer>
+    
+    
+    </body>
+    
+</html>
